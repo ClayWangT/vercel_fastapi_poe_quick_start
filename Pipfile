@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi-poe = "==0.0.44"
+langchain_openai = "0.1.7"
+langchain_core = "0.2.1"
+openai = "==1.30.4"
+fastapi = "==0.109.1"
+uvicorn = "==0.17.6"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
+python_full_version = "3.9.13"
