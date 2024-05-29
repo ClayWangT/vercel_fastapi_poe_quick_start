@@ -13,6 +13,7 @@ class LangchainOpenAIChatBot(fp.PoeBot):
     def __init__(self):
         super().__init__()
         self.chat_model = ChatOpenAI(
+          model=os.environ['MODEL_NAME'],
           temperature=0,
         )
 
