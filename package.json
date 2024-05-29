@@ -1,5 +1,5 @@
 {
-  "name": "git remote add origin git@github.com:ClayWangT/vercel_fastapi_poe_quick_start.git",
+  "name": "vercel_fastapi_poe_quick_start",
   "version": "0.1.0",
   "private": true,
   "engines": {
